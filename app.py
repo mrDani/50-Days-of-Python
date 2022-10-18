@@ -8,5 +8,15 @@ print("/___|")
 character_name = "John Doe"
 age = "22"
 occupation = "International Super Spy"
-print(age)
+print(character_name.upper())
+print(character_name.isupper())
+print(len(character_name))
+print(character_name[2])
 print("The greatest are just a few " + character_name + ", " + age + ", " + occupation)
+
+## \n new line
+print(" CIA \n Academy")
+## Getting Input from users
+
+name = input("Enter your name: ")
+print("Hello " + name + "!")
