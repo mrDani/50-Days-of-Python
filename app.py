@@ -19,4 +19,12 @@ print(" CIA \n Academy")
 ## Getting Input from users
 
 name = input("Enter your name: ")
-print("Hello " + name + "!")
+age = input("Enter your Age: ")
+print("Hello " + name + "!" + " You are " + age )
+
+## Lists
+cars = ["Honda", "Toyota", "Lamborgini", "Buggatti", "Lexus"]
+
+print(cars)
+print(cars[2])
+print(cars[1:3])
