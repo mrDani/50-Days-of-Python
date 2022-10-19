@@ -24,7 +24,8 @@ print("Hello " + name + "!" + " You are " + age )
 
 ## Lists
 cars = ["Honda", "Toyota", "Lamborgini", "Buggatti", "Lexus"]
-
+cars.sort()
 print(cars)
-print(cars[2])
-print(cars[1:3])
+# print(cars[2])
+# print(cars[1:3])
+
