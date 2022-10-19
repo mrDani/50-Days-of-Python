@@ -2,6 +2,9 @@
 # Tuples cannot be changed or modified but Lists can be modifed and changed in a new varaible
 # You can have Tuples in a list array
 
+from ast import Num
+
+
 coordinates = (4, 5)
 
 print(coordinates[0])
@@ -15,3 +18,11 @@ varname = "Steve, "
 birth = 22
 say_hi(varname, str(birth))
 say_hi("Tony ", "35")
+
+# Return Statement 
+def cube(num):
+    return num*num*num
+
+result = cube(4)
+print(result)
+
