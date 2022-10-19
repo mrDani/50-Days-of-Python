@@ -26,3 +26,12 @@ def cube(num):
 result = cube(4)
 print(result)
 
+#If Statement
+is_male = True
+is_tall = False 
+
+if is_male and is_tall:
+    print("Tu Madre!")
+else:
+    print("Es mi familia")
+
