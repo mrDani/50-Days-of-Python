@@ -47,3 +47,15 @@ def max_num(num1, num2, num3):
         return num3
 
 print(max_num(30, 4, 5))
+
+# Dictionary
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June"
+}
+
+print(monthConversions["Feb"])
