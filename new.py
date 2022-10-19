@@ -5,3 +5,13 @@
 coordinates = (4, 5)
 
 print(coordinates[0])
+
+# Function
+
+def say_hi(name, age):
+    print("Hello " + name + age)
+
+varname = "Steve, "
+birth = 22
+say_hi(varname, str(birth))
+say_hi("Tony ", "35")
