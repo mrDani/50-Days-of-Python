@@ -32,6 +32,8 @@ is_tall = False
 
 if is_male and is_tall:
     print("Tu Madre!")
+elif is_male and not(is_tall):
+    print("Aye!!")
 else:
     print("Es mi familia")
 
