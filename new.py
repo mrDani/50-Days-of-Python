@@ -69,3 +69,13 @@ while i <=10:
     i += 1
 
 print("Done with loop!")
+
+#Exponent Function
+
+def raise_to_power(base_num, pow_num):
+    resulta = 1
+    for index in range(pow_num):
+        resulta = resulta * base_num
+    return resulta
+
+print(raise_to_power(3, 3))
