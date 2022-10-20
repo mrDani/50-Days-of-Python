@@ -4,7 +4,6 @@
 
 from ast import Num
 
-
 coordinates = (4, 5)
 
 print(coordinates[0])

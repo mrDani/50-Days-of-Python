@@ -127,7 +127,7 @@ try:
         ''')
     cursor.execute('''INSERT INTO colors(GREEN, YELLOW, BROWN, BLUE, PINK, ORANGE, CREAM, RED, WHITE, ARSH, BLEW, BLACK) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
 ''',list(all_colors.values()))
-    except psycopg2.Error as e:
+except psycopg2.Error as e:
         print('Error found')
         print(e)
     
