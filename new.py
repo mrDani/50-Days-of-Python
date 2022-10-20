@@ -37,7 +37,7 @@ elif is_male and not(is_tall):
 else:
     print("Es mi familia")
 
-#If Statement and Comparism
+#If Statement and Compar
 def max_num(num1, num2, num3):
     if num1 >= num2 and num1 >= num3:
         return num1
