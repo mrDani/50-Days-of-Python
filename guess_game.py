@@ -1,4 +1,4 @@
-secret_word = "valiente"
+secret_word = "brave"
 guess = ""
 guess_count = 0 
 guess_limit = 3
