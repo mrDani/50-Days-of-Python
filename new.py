@@ -1,6 +1,4 @@
-# Tuples
-# Tuples cannot be changed or modified but Lists can be modifed and changed in a new varaible
-# You can have Tuples in a list array
+
 
 from ast import Num
 
@@ -28,6 +26,7 @@ print(result)
 #If Statement
 is_male = True
 is_tall = False 
+
 
 if is_male and is_tall:
     print("Tu Madre!")
