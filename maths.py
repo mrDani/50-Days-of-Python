@@ -21,3 +21,16 @@ d = 37
 p = (a + b) >= (c - d)
 print(p)
 
+P = (10 == 9)
+Q = (7 > 5)
+
+# Logical Expressions
+R = P and Q
+S = P or Q
+T = not P
+
+print(R)
+print(S)
+print(T)
+
+
