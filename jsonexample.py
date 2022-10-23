@@ -1,7 +1,6 @@
 # Python program to read
 # json file
 
-
 import json
 
 # Opening JSON file
@@ -18,3 +17,4 @@ for i in data['emp_details']:
 
 # Closing file
 f.close()
+
