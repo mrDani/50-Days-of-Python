@@ -22,9 +22,6 @@ f.close()
 # json file
 
 
-import json
-
-
 # JSON string
 a = '{"name": "Bob", "languages": "English"}'
 
