@@ -50,10 +50,7 @@ f.close()
 # Python program to demonstrate
 # Creation of Set in Python
 
-# Creating a Set
-set1 = set()
-print("Initial blank Set: ")
-print(set1)
+
 
 # Creating a Set with
 # the use of a String
