@@ -69,4 +69,8 @@ set1 = set(String)
 print("\nSet with the use of an Object: " )
 print(set1)
 
-
+# Creating a Set with
+# the use of a List
+set1 = set(["Geeks", "For", "Geeks"])
+print("\nSet with the use of List: ")
+print(set1)
